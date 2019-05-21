@@ -54,6 +54,7 @@ lifeline_3 = 0
 lifeline_4 = 0
 i=0
 
+# iterating loop on the question list
 while i < len(Question_list):
 	print ("\n", "This question is on your screens for price " + str(price_list[i]))
 	print ("\n", Question_list[i])
